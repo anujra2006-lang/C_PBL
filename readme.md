@@ -44,9 +44,11 @@ customer-billing-system/
 | Team Lead | Anuj Rawat |
 | Team Member | Abhishek Mehta |
 | Team Member | Akash Kumar Nath |
-*College:* Graphic Era Hill University, Dehradun
-*Course:* Programming for Problem Solving (B.Tech CSE)
-*Assignment:* Project Based Learning
+
+
+**College:** Graphic Era Hill University, Dehradun
+**Course:** Programming for Problem Solving (B.Tech CSE)
+**Assignment:** Project Based Learning
 
 
 
