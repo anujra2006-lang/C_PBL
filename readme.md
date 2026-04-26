@@ -22,6 +22,15 @@ Item Entry — for each item, user enters name, quantity, unit (optional), and p
 Bill Generation — program calculates subtotal per item, applies 5% tax, and prints the final bill
 
 ---
+##  Key Features
+
+* Accepts dynamic number of items per bill
+* Supports optional units (kg, g, L, etc.) for items sold by measure
+* Automatically calculates subtotals, tax (5%), and grand total
+* Displays a clean, tabular bill format in the terminal
+* Lightweight — runs entirely offline with no external dependencies
+
+---
 
 
 
