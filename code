@@ -16,10 +16,8 @@ struct Item {
     float price;
 };
 
-// ─── Main ─────────────────────────────────────────────────
 int main() {
 
-    // ── Variables ──
     struct Customer customer;
     int   totalItems;
     float total = 0, tax = 0, grandTotal = 0;
@@ -81,7 +79,7 @@ int main() {
     
     printf("\n\n");
     printf("+===============================================+\n");
-    printf("|            BILL           |\n");
+    printf("|             BILL           |\n");
     printf("+===============================================+\n");
     printf("  Name    : %s\n", customer.name);
     printf("  Address : %s\n", customer.address);
@@ -114,7 +112,6 @@ int main() {
                subtotal);
     }
 
-    // ── Tax & Total ──
     tax        = total * 0.05f;
     grandTotal = total + tax;
 
