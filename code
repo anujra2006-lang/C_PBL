@@ -112,7 +112,7 @@ int main() {
                subtotal);
     }
 
-    tax        = total * 0.05f;
+    tax = total * 0.05f;
     grandTotal = total + tax;
 
     printf("+-----------------------------------------------+\n");
