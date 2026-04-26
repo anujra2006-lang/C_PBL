@@ -31,5 +31,8 @@ Bill Generation — program calculates subtotal per item, applies 5% tax, and pr
 
 **Assignment:** Project Based Learning
 
+**concepts used:** concepts of sturcture, loops, library string function
+
+
 
 
