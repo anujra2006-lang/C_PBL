@@ -7,8 +7,12 @@ A console-based **Customer Billing System** written in **C**, designed to help b
 
 
 ## Problem Description
+
+
 Managing customer billing manually is time-consuming and error-prone, especially when dealing with multiple items, varying units of measurement, and tax calculations. Small businesses and retail counters often lack a simple, lightweight tool to generate structured bills without depending on heavy software or internet connectivity.
 This Customer Billing System is a console-based C program that solves this by providing a quick and structured way to record customer details, enter purchased items, and automatically compute the final bill — including subtotals, tax, and grand total.
+
+
 ---
 
 ## How It Works
