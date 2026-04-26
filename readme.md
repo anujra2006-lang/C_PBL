@@ -29,7 +29,7 @@ Bill Generation — program calculates subtotal per item, applies 5% tax, and pr
 * Automatically calculates subtotals, tax (5%), and grand total
 * Displays a clean, tabular bill format in the terminal
 * Lightweight — runs entirely offline with no external dependencies
-
+* Saves the bill to bill.txt in the same folder
 ---
 
 
