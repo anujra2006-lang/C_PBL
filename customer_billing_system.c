@@ -75,38 +75,38 @@ int main() {
 
     #define PRINT(fmt, ...) printf(fmt, ##__VA_ARGS__); fprintf(fp, fmt, ##__VA_ARGS__)
 
-    PRINT("\n+===============================================+\n");
-    PRINT("|                    BILL                      |\n");
-    PRINT("+===============================================+\n");
-    PRINT("  Name    : %s\n", customer.name);
-    PRINT("  Address : %s\n", customer.address);
-    PRINT("  Phone   : %s\n", customer.phone);
-    PRINT("+-----------------------------------------------+\n");
-    PRINT("| %-4s | %-15s | %-8s | %-6s | %-8s |\n",
+    printf("\n+===============================================+\n");
+    printf("|                    BILL                      |\n");
+    printf("+===============================================+\n");
+    prinf("  Name    : %s\n", customer.name);
+    printf("  Address : %s\n", customer.address);
+    printf("  Phone   : %s\n", customer.phone);
+    printf("+-----------------------------------------------+\n");
+    printf("| %-4s | %-15s | %-8s | %-6s | %-8s |\n",
           "ID", "Item Name", "Qty", "Price", "Subtotal");
-    PRINT("+-----------------------------------------------+\n");
+    printf("+-----------------------------------------------+\n");
 
     for (int i = 0; i < totalItems; i++) {
         float subtotal = items[i].quantity * items[i].price;
         if (strlen(items[i].unit) > 0) {
-            PRINT("| %-4d | %-15s | %-4.1f %-3s | %-6.2f | %-8.2f |\n",
+            printf("| %-4d | %-15s | %-4.1f %-3s | %-6.2f | %-8.2f |\n",
                   items[i].id, items[i].name,
                   items[i].quantity, items[i].unit,
                   items[i].price, subtotal);
         } else {
-            PRINT("| %-4d | %-15s | %-8.0f | %-6.2f | %-8.2f |\n",
+            printf("| %-4d | %-15s | %-8.0f | %-6.2f | %-8.2f |\n",
                   items[i].id, items[i].name,
                   items[i].quantity, items[i].price, subtotal);
         }
     }
 
-    PRINT("+-----------------------------------------------+\n");
-    PRINT("  Subtotal    : %.2f\n", total);
-    PRINT("  Tax (5%%)    : %.2f\n", tax);
-    PRINT("  Grand Total : %.2f\n", grandTotal);
-    PRINT("+===============================================+\n");
-    PRINT("|         Thanks for visiting us!              |\n");
-    PRINT("+===============================================+\n\n");
+    printf("+-----------------------------------------------+\n");
+    printf("  Subtotal    : %.2f\n", total);
+    printf("  Tax (5%%)    : %.2f\n", tax);
+    printf("  Grand Total : %.2f\n", grandTotal);
+    printf("+===============================================+\n");
+    printf("|         Thanks for visiting us!              |\n");
+    printf("+===============================================+\n\n");
 
     fclose(fp);
     printf("[INFO] Bill saved to bill.txt\n\n");
