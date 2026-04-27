@@ -100,13 +100,13 @@ int main() {
         }
     }
 
-    PRINT("+-----------------------------------------------+\n");
-    PRINT("  Subtotal    : %.2f\n", total);
-    PRINT("  Tax (5%%)    : %.2f\n", tax);
-    PRINT("  Grand Total : %.2f\n", grandTotal);
-    PRINT("+===============================================+\n");
-    PRINT("|         Thanks for visiting us!              |\n");
-    PRINT("+===============================================+\n\n");
+    Printf("+-----------------------------------------------+\n");
+    Printf("  Subtotal    : %.2f\n", total);
+    Printf("  Tax (5%%)    : %.2f\n", tax);
+    Printf("  Grand Total : %.2f\n", grandTotal);
+    Printf("+===============================================+\n");
+    Printf("|         Thanks for visiting us!              |\n");
+    Printf("+===============================================+\n\n");
 
     fclose(fp);
     printf("[INFO] Bill saved to bill.txt\n\n");
